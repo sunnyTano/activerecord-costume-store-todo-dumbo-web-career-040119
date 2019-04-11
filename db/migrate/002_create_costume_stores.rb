@@ -7,7 +7,7 @@ class CostumeStore < ActiveRecord::Migration[5.1]
       t.string :location 
       t.integer :costume_inventory 
       t.integer :employees 
-      t.string :in_business_?
+      t.string :in_business
       t.timestamp :opening_time
       t.timestamp :closing_time
     end 
